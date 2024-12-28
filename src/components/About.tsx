@@ -10,15 +10,15 @@ export default function About() {
         <div className="max-w-4xl mx-auto text-center">
           <div className="glass-card p-6 sm:p-8 rounded-xl animate-fade-in">
             <p className="text-base sm:text-xl text-blue-100 leading-relaxed mb-6">
-              En IA en Clave somos una empresa especializada en soluciones de inteligencia artificial 
-              diseñadas para transformar y potenciar negocios. Ofrecemos servicios personalizados que 
-              ayudan a las empresas a maximizar su eficiencia, reducir costos y tomar decisiones más 
+              En IA en Clave somos una empresa especializada en soluciones de inteligencia artificial
+              diseñadas para transformar y potenciar negocios. Ofrecemos servicios personalizados que
+              ayudan a las empresas a maximizar su eficiencia, reducir costos y tomar decisiones más
               inteligentes a través del uso estratégico de datos.
             </p>
             <p className="text-base sm:text-xl text-blue-100 leading-relaxed">
-              Nuestra misión es impulsar la digitalización en México y convertirnos en aliados 
-              estratégicos de las PYMEs en su camino hacia el éxito. Con valores como innovación, 
-              integridad, y orientación al cliente, buscamos que cada solución no solo sea eficiente, 
+              Nuestra misión es impulsar la digitalización en México y convertirnos en aliados
+              estratégicos de las PYMEs en su camino hacia el éxito. Con valores como innovación,
+              integridad, y orientación al cliente, buscamos que cada solución no solo sea eficiente,
               sino también accesible y ética.
             </p>
           </div>
