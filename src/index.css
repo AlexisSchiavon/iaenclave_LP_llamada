@@ -11,6 +11,10 @@ html {
 section {
   position: relative;
   z-index: 1;
+}
+
+/* Solo para secciones que necesiten el fondo azul */
+.section-blue {
   background: rgba(23, 37, 84, 0.7);
   backdrop-filter: blur(8px);
 }
@@ -62,6 +66,30 @@ section {
   }
 }
 
+@keyframes rotateSlowly {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse {
+
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.3;
+  }
+
+  50% {
+    transform: scale(1.05);
+    opacity: 0.4;
+  }
+}
+
 /* Custom Classes */
 .animate-fade-in {
   animation: fadeIn 0.8s ease-out forwards;
@@ -91,4 +119,12 @@ section {
   backdrop-filter: blur(8px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.animate-rotate {
+  animation: rotateSlowly 20s linear infinite;
+}
+
+.animate-pulse-slow {
+  animation: pulse 4s ease-in-out infinite;
 }
